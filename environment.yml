@@ -1,0 +1,14 @@
+name: rlproj
+channels: [conda-forge, pytorch, nvidia]
+dependencies:
+  - python=3.11
+  - pytorch=2.3.*=cuda118*
+  - cudatoolkit=11.8
+  - stable-baselines3>=2.4
+  - gymnasium[box2d,classic-control]
+  - hydra-core>=1.3
+  - omegaconf
+  - wandb
+  - numpy pandas matplotlib
+  - pip:
+      - pre-commit

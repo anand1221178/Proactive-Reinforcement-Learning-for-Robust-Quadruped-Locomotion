@@ -1,0 +1,8 @@
+defaults:
+  - algo: ppo         # inherits from config/algo/ppo.yaml
+  - env: sim_v1       # inherits from config/env/sim_v1.yaml
+  - hydra: base
+
+project: "rl_portfolio"
+seed: 123
+total_timesteps: 2_000_000
