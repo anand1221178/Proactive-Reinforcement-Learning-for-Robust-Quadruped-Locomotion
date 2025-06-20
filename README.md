@@ -10,7 +10,7 @@
 ---
 
 ## ✨ Project Overview
-This repository hosts a **research‑grade pipeline** for training, evaluating, and analysing reinforcement‑learning (RL) agents in simulated avionics‑inspired tasks.  
+This repository hosts a **research‑grade pipeline** for training, evaluating, and analysing reinforcement‑learning (RL) agents in simulated tasks.  
 The key design goal is **rapid iteration on your workstation** followed by **seamless scale‑out on an HPC cluster** (GPU Slurm farm).  
 Features include:
 
@@ -78,7 +78,7 @@ rl‑project/
 ### 1. Clone & bootstrap (local workstation)
 
 ```bash
-git clone https://github.com/<your‑org>/rl‑project.git
+git clone https://github.com/anand1221178/Proactive-Reinforcement-Learning-for-Robust-Quadruped-Locomotion.git
 cd rl‑project
 bash scripts/local_setup.sh      # installs Conda env + pre‑commit hooks
 conda activate rlproj
